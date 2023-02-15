@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Domain.Entities.Lesson>
+
+@{
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LessonCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LessonTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Class)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TeacherName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TeacherSurname)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LessonCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LessonTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Class)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TeacherName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TeacherSurname)
+                </td>
+                <td>
+                    <a asp-action="Update" asp-route-id="@item.LessonCode">Dəyiş</a> |
+                    <a asp-action="Detail" asp-route-id="@item.LessonCode">Ətraflı</a> |
+                    <a asp-action="Delete" asp-route-id="@item.LessonCode">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
