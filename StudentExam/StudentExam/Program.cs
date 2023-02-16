@@ -16,6 +16,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 // Repository assignment
 builder.Services.AddScoped<ILessonRepository, LessonRepository>();
+builder.Services.AddScoped<IStudentInterface, StudentRepesitory>();
+builder.Services.AddScoped<IExamInterface, ExamRepository>();
 
 var app = builder.Build();
 

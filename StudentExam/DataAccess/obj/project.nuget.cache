@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J+0VELWDuHUmK6iLCbltyZg1a0aHGPsya/yEQY67kF/EVDH1AaK+iS/UzZKkb2xMqjkxcbMETUcJckKe4Zw9jA==",
+  "dgSpecHash": "+MRZzaYxlhSICHAZmDBVADO6++KeYOHyNxU627RnLh8kw5Zrhip99UVYYYDPaVmEDxERdA0V5UdLj5QDRhbwgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asimg\\Documents\\GitHub\\TextReverser\\StudentExam\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\asimg\\Documents\\GitHub\\ExamRegistration\\StudentExam\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asimg\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\asimg\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

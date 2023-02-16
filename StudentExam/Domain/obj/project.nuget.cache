@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "97cn1251HyDAUzlyaJzaKdAWizDNOeTZHfAH5XxYGdJWpjZkDLxXjFjNMWee+iMaY2jQXkXb3W1MjN/QX0Qopg==",
+  "dgSpecHash": "opDYN6sA1+psQSSGGNCaNJg4XegrS/Dfx1RLgUJsNDmbhMtgnz4W5KMgZUGes4BMmTp2NEvda2z1kGmxq4Cq7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asimg\\Documents\\GitHub\\TextReverser\\StudentExam\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\asimg\\Documents\\GitHub\\ExamRegistration\\StudentExam\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

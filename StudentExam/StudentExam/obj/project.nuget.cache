@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w8X7b23loEQ/mHCwRgjsoTrPB8UDMnR86iif1D+nEJs40GX81Ex14LzbqgozGib0hYXJygNRXlPa2LZX8xy1kg==",
+  "dgSpecHash": "2H5RwOUjZm8SfWuRXxKXgbYdSm/vll7ZWm8cZgmqmTgouYQewVyo8OdsnPgTGhCuMxKAsX4EU9YbDMpFBS11dA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asimg\\Documents\\GitHub\\TextReverser\\StudentExam\\StudentExam\\StudentExam.csproj",
+  "projectFilePath": "C:\\Users\\asimg\\Documents\\GitHub\\ExamRegistration\\StudentExam\\StudentExam\\StudentExam.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asimg\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\asimg\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

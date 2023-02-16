@@ -13,15 +13,18 @@ namespace Domain.Entities
         [Key]
         [Required]
         [Column(TypeName = "numeric(5,0)")]
+        //[Range(10000, 99999)]
         public int StudentId { get; set; }
         [Required]
         [Column(TypeName = "varchar(30)")]
+        [MaxLength(30)]
         public string? StudentName { get; set; }
         [Required]
         [Column(TypeName = "varchar(30)")]
         public string? StudentSurname { get; set; }
         [Required]
         [Column(TypeName = "numeric(2,0)")]
+        [Range(1,12)]
         public int Class { get; set; }
         public ICollection<Exam>? Exams { get; set; }
     }

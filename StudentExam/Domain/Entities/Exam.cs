@@ -27,6 +27,7 @@ namespace Domain.Entities
         public DateTime ExamDate { get; set; }
         [Required]
         [Column(TypeName = "numeric(1,0)")]
+        [Range(0, 9)]
         public int Score { get; set; }
     }
 }
